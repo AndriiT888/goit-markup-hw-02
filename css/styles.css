@@ -3,69 +3,166 @@ font-family: "Raleway", sans-serif;
 font-family: "Roboto",sans-serif; */
 
 :root {
-    /* fonts */
-    --main-font: "Roboto", sans-serif;
-    /* colors */
-  --color-iris: #4D5AE5;
-  --color-ocean: #404BBF;
-  --color-navy-blue: #2E2F42;
-  --color-green: #31D0AA;
+  /* fonts */
+  --main-font: 'Roboto', sans-serif;
+  /* colors */
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
   --color-state: #434455;
-  --color-light-state: #8E8F99;
-  --color-cornflower: #E7E9FC;
-  --color-cloud: #F4F4FD;
-  --color-navy-blue-modal: #2E2F42;
-  --color-grey: #2E2F42;
-  --color-white: #FFFFFF;
-  --color-dairy: #FCFCFC;
+  --color-light-state: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
 }
 
 /* common */
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-font-family: "Roboto", sans-serif;
-color: var(--color-state);
-background-color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .logo {
-font: 700 18px / 1.17 "Raleway", sans-serif;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+  font: 700 18px / 1.17 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .header-logo .logo-part {
-    color: #2e2f42;
+  color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .nav-link {
-    font: 500 16px / 1.5 
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+  font: 500 16px / 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 .address-link {
-    font: 16px / 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+  font: 16px / 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .address-link:hover,
-.address-link:focus
-{
-color: #404bbf;
+.address-link:focus {
+  color: #404bbf;
+}
+/* hero-section */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font: 56px / 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
+.order-button {
+  font: 500 16px / 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+/* benefits */
+.benefits-title {
+  display: none;
+}
+
+.benefits-option {
+  font: 20px / 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.benefits-description {
+  font: 16px / 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* team */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font: 36px / 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.avatar-title {
+  font: 20px / 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.avatar-text {
+  font: 16px / 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* our-portfolio */
+
+.portfolio-title {
+  font: 36px / 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio-item-title {
+  font: 20px / 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-item-descr {
+  font: 16px / 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+.footer-page {
+  background: #2e2f42;
+}
+
+.footer-text {
+  font: 16px / 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
