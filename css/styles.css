@@ -1,0 +1,71 @@
+/* Fonts:
+font-family: "Raleway", sans-serif;
+font-family: "Roboto",sans-serif; */
+
+:root {
+    /* fonts */
+    --main-font: "Roboto", sans-serif;
+    /* colors */
+  --color-iris: #4D5AE5;
+  --color-ocean: #404BBF;
+  --color-navy-blue: #2E2F42;
+  --color-green: #31D0AA;
+  --color-state: #434455;
+  --color-light-state: #8E8F99;
+  --color-cornflower: #E7E9FC;
+  --color-cloud: #F4F4FD;
+  --color-navy-blue-modal: #2E2F42;
+  --color-grey: #2E2F42;
+  --color-white: #FFFFFF;
+  --color-dairy: #FCFCFC;
+}
+
+/* common */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+font-family: "Roboto", sans-serif;
+color: var(--color-state);
+background-color: var(--color-white);
+}
+
+.logo {
+font: 700 18px / 1.17 "Raleway", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo .logo-part {
+    color: #2e2f42;
+}
+
+.nav-link {
+    font: 500 16px / 1.5 
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.address {
+    font-style: normal;
+}
+.address-link {
+    font: 16px / 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.address-link:hover,
+.address-link:focus
+{
+color: #404bbf;
+}
+
