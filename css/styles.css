@@ -101,7 +101,7 @@ body {
 }
 
 .benefits-option {
-  font: 20px / 1.2;
+  font: 500 20px / 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -124,7 +124,7 @@ body {
 }
 
 .avatar-title {
-  font: 20px / 1.2;
+  font: 500 20px / 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -146,7 +146,7 @@ body {
 }
 
 .portfolio-item-title {
-  font: 20px / 1.2;
+  font: 500 20px / 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
